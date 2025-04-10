@@ -1,0 +1,41 @@
+     :root {
+        --cor-primaria: #0a243e;
+        --cor-texto: #333;
+        --cor-clara: #f9f9f9;
+    }
+
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        line-height: 1.6;
+        color: var(--cor-texto)
+    }
+
+    .cabeçalho {
+        background-color: var(--cor-primaria);
+        color: var(--cor-clara);
+    }
+    .logo {
+        width: 150px;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+     .cabeçalho .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+     }
+
+    
+
+    
+     
